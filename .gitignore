@@ -64,3 +64,6 @@ typings/
 #ide
 .vscode/
 .idea/
+*.iml
+
+.DS_Store

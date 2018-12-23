@@ -1,0 +1,21 @@
+{
+  "name": "garageapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "standard": "standard --fix"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "express": "^4.16.2",
+    "request": "^2.88.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
