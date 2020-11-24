@@ -7,7 +7,7 @@ WORKDIR /usr/opt/garage-api
 
 # Bundle app source
 COPY src src
-COPY .config .config
+# COPY .config .config
 COPY package-lock.json .
 COPY package.json .
 COPY .babelrc .
