@@ -1,4 +1,4 @@
-import auth from '../../.config/auth'
+import auth from '../../.config/auth.js'
 
 export default function (req, res, next) {
   if (req.headers['auth'] === auth.hash) {

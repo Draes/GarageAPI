@@ -4,7 +4,7 @@ import {spawn} from 'child_process'
 
 const router = express.Router()
 
-router.get('/trigger', isAllowed, (req, res) => {
+router.post('/trigger', isAllowed, (req, res) => {
   const ls = spawn('python', ['../scripts/trigger.py'])
   ls.on('close', code => {
     let message = (code === 1 ? 'Garage lock triggered' : 'An error has occurred')

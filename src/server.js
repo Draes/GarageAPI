@@ -3,7 +3,7 @@ import cookieParser from 'cookie-parser'
 import bodyParser from 'body-parser'
 import {Logger} from './logger'
 import checkGarageStatus from './context/notifications'
-import config from '../.config/properties'
+import config from '../.config/properties.js'
 import garage from './controller/garage'
 
 const app = express()
