@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import RPi.GPIO as GPIO, sys
 
-STATUS_PIN = 17 # pin on board connected to switch
+STATUS_PIN = 10 # pin on board connected to switch
 
 # setup STATUS_PIN
 GPIO.setmode(GPIO.BCM)
