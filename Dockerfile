@@ -1,5 +1,4 @@
-FROM node:10.10.0-alpine
-ARG configuration
+FROM nikolaik/python-nodejs:python3.9-nodejs10-alpine
 
 # Create app directory
 RUN mkdir -p /usr/opt/garage-api
